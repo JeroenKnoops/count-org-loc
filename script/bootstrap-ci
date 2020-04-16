@@ -2,5 +2,5 @@
 
 set -x
 
-apt-get install cloc
+apt-get update && apt-get install cloc
 bundle install
